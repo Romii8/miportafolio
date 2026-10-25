@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romina Andrade · Portafolio · Desarrollo de Software</title>
+  <meta name="description" content="Portafolio de estudiante de Ingeniería en Ciencias de la Computación en busca de pasantía en desarrollo de software y backend.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Caveat:wght@500;700&family=Karla:wght@400;500;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#presentacion">Saltar al contenido</a>
+
+  <!-- ========== CABECERA ========== -->
+  <header class="topbar">
+    <a href="#presentacion" class="firma" aria-label="Volver al inicio">Romina</a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="menu-movil">
+      <span class="menu-btn__pincel" aria-hidden="true"></span>
+      <span class="menu-btn__texto">Menú</span>
+    </button>
+    <nav id="menu-movil" class="menu" aria-label="Navegación principal">
+      <ul>
+        <li><a href="#presentacion">Presentación</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#formacion">Formación</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#certificaciones">Certificaciones</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#idiomas">Idiomas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========== A. PORTADA ========== -->
+    <section id="presentacion" class="portada">
+      <span class="mancha mancha--rosa" aria-hidden="true"></span>
+      <span class="mancha mancha--mostaza" aria-hidden="true"></span>
+      <span class="mancha mancha--salvia" aria-hidden="true"></span>
+
+      <div class="portada__caballete">
+        <figure class="lienzo-hero">
+          <span class="cinta cinta--izq" aria-hidden="true"></span>
+          <span class="cinta cinta--der" aria-hidden="true"></span>
+          <img src="assets/images/estudio.jpg" alt="Ilustración de un estudio de pintura con caballete, paleta de acrílicos, pinceles y una laptop con código" width="1280" height="1024">
+          <figcaption class="nota-mano">mi estudio: código + acrílico</figcaption>
+        </figure>
+      </div>
+
+      <div class="portada__texto">
+        <p class="etiqueta-taller">Portafolio · Edición 2026</p>
+        <h1 class="portada__nombre">
+          <span class="trazo-fondo">Romina</span>
+          <span class="portada__apellido">Andrade</span>
+        </h1>
+        <p class="portada__rol">Estudiante de Ingeniería en Ciencias de la Computación</p>
+        <p class="portada__objetivo">
+          Busco una <strong>pasantía de desarrollo de software</strong>, con interés especial en
+          <strong>programación y backend</strong>. Pinto con acrílico y programo con la misma paciencia: capa por capa.
+        </p>
+        <div class="portada__acciones">
+          <a href="#proyectos" class="btn btn--pintura">Explorar proyectos</a>
+          <a href="cv/CV_Andrade_Romina.pdf" class="btn btn--lienzo" download>Descargar CV</a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========== B. PALETA DE NAVEGACIÓN ========== -->
+    <section class="seccion-paleta" aria-labelledby="titulo-paleta">
+      <h2 id="titulo-paleta" class="titulo-mano">Elige un color para recorrer el estudio</h2>
+      <nav class="paleta" aria-label="Paleta de navegación por secciones">
+        <span class="paleta__agujero" aria-hidden="true"></span>
+        <a href="#presentacion" class="gota" style="--c: var(--rosa)"><span>Presentación</span></a>
+        <a href="#sobre-mi" class="gota" style="--c: var(--coral)"><span>Sobre mí</span></a>
+        <a href="#formacion" class="gota" style="--c: var(--terracota)"><span>Formación</span></a>
+        <a href="#habilidades" class="gota" style="--c: var(--mostaza)"><span>Habilidades</span></a>
+        <a href="#certificaciones" class="gota" style="--c: var(--salvia)"><span>Certificaciones</span></a>
+        <a href="#proyectos" class="gota" style="--c: var(--petroleo)"><span>Proyectos</span></a>
+        <a href="#idiomas" class="gota" style="--c: var(--madera)"><span>Idiomas</span></a>
+        <a href="#contacto" class="gota" style="--c: var(--crema-oscuro)"><span>Contacto</span></a>
+      </nav>
+    </section>
+
+    <!-- ========== C. SOBRE MÍ ========== -->
+    <section id="sobre-mi" class="seccion sobre-mi">
+      <h2 class="titulo-seccion"><span>Sobre mí</span></h2>
+      <div class="cuaderno revelar">
+        <div class="cuaderno__espiral" aria-hidden="true"></div>
+        <div class="cuaderno__pagina">
+          <p class="nota-mano nota-mano--grande">Hola, soy Romina.</p>
+          <!-- EDITAR: escribe tu historia en estos párrafos -->
+          <p>Estudiante de Ingeniería en Ciencias de la Computación desde 2024</p>
+          <p>Me gusta aprender nuevos idiomas, esta vez quiero entender el idioma de las computadoras.</p>
+          <p>Y mediante el, ayudar a mi comunidad a resolver problemas del día a día</p>
+          <p>Frente a un lienzo o a un editor de código, todo comienza igual: una idea y la libertad de crear</p>
+        </div>
+        <img class="portada__pinceles" src="assets/images/pinceles.png" alt="" aria-hidden="true" width="800" height="600">
+        <aside class="recortes" aria-label="Notas">
+          <div class="recorte recorte--postit"><span class="cinta" aria-hidden="true"></span>Backend · Frontend · Lógica</div>
+          <div class="recorte recorte--polaroid">
+            <img src="assets/images/estudio.jpg" alt="Detalle de la paleta de colores en el estudio" loading="lazy" width="1280" height="1024">
+            <span class="nota-mano">Donde nacen las ideas</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ========== D. FORMACIÓN ========== -->
+    <section id="formacion" class="seccion formacion">
+      <h2 class="titulo-seccion"><span>Formación académica</span></h2>
+      <ol class="linea-tiempo">
+        <li class="hito revelar" style="--c: var(--petroleo)">
+          <span class="hito__punto" aria-hidden="true"></span>
+          <div class="hito__ficha">
+            <p class="etiqueta-taller">Universidad</p>
+            <h3>Universidad Católica de Santiago de Guayaquil (UCSG)</h3>
+            <p>Ingeniería en Ciencias de la Computación</p>
+            <p class="dato-editable">Ciclo actual: 6.º ciclo</p>
+          </div>
+                    <div class="hito__ficha">
+            <p class="etiqueta-taller">Bachillerato</p>
+            <h3>Unidad Educativa Futuros Navegantes (UEFN)</h3>
+            <p>Bachiller Informático Unificado</p>
+            <p class="dato-editable">Graduado - 2024</p>
+          </div>
+        </li>
+        <li class="hito revelar" style="--c: var(--mostaza)">
+          <span class="hito__punto" aria-hidden="true"></span>
+          <div class="hito__ficha hito__ficha--medalla">
+            <p class="etiqueta-taller">Reconocimientos</p>
+            <h3>Premio Unidad Académica</h3>
+            <p class="dato-editable">UCSG -2024, UCSG -2025</p>
+            <h3>Mejor Bachiller</h3>
+            <p class="dato-editable">UEFN, 2024</p>  
+            <h3>Abanderado de Pabellón Nacional</h3>
+            <p class="dato-editable">UEFN, 2023 - 2024</p> 
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ========== E. HABILIDADES ========== -->
+    <section id="habilidades" class="seccion habilidades">
+      <h2 class="titulo-seccion"><span>Habilidades técnicas</span></h2>
+      <p class="intro">Mis herramientas de taller. Las sigo afilando cada semestre.</p>
+      <div class="caja-herramientas">
+        <article class="tubo revelar" style="--c: var(--coral)">
+          <div class="tubo__tapa" aria-hidden="true"></div>
+          <div class="tubo__cuerpo">
+            <h3>Programación</h3>
+            <ul><li>Java</li><li>C++</li><li>Python</li></ul>
+          </div>
+        </article>
+        <article class="tubo revelar" style="--c: var(--salvia)">
+          <div class="tubo__tapa" aria-hidden="true"></div>
+          <div class="tubo__cuerpo">
+            <h3>Desarrollo web</h3>
+            <ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP (básico)</li><li>Laravel (básico)</li></ul>
+          </div>
+        </article>
+        <article class="tubo revelar" style="--c: var(--petroleo)">
+          <div class="tubo__tapa" aria-hidden="true"></div>
+          <div class="tubo__cuerpo">
+            <h3>Bases de datos</h3>
+            <ul><li>SQL</li><li>Oracle</li><li>PL/SQL (fundamentos)</li></ul>
+          </div>
+        </article>
+        <article class="tubo revelar" style="--c: var(--mostaza)">
+          <div class="tubo__tapa" aria-hidden="true"></div>
+          <div class="tubo__cuerpo">
+            <h3>Herramientas</h3>
+            <ul><li>Git</li><li>GitHub</li><li>Linux</li><li>Power BI</li></ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== G. CERTIFICACIONES ========== -->
+    <section id="certificaciones" class="seccion certificaciones">
+      <h2 class="titulo-seccion"><span>Certificaciones</span></h2>
+      <div class="laminas">
+        <article class="lamina revelar">
+          <span class="cinta" aria-hidden="true"></span>
+          <p class="etiqueta-taller">Certificado</p>
+          <h3>Java Programming I</h3>
+          <p>Universidad de Helsinki</p>
+          <p class="dato-editable">2026</p>
+          <a href="https://certificates.mooc.fi/validate/6nzilqxh0vu" >Enlace</a>
+        </article>
+        <article class="lamina lamina--girada revelar">
+          <span class="cinta" aria-hidden="true"></span>
+          <p class="etiqueta-taller">Certificado</p>
+          <h3>Introducción a Git y GitHub</h3>
+          <p>TODOCODE ACADEMY</p>
+          <p class="dato-editable">2026</p>
+          <a href="https://todocodeacademy.com/certificate/git-y-github-tfw/" >Enlace</a>
+        </article>
+        <article class="lamina revelar">
+          <span class="cinta" aria-hidden="true"></span>
+          <p class="etiqueta-taller">Certificado</p>
+          <h3>Introducción a las Bases de Datos Relacionales</h3>
+          <p>TODOCODE ACADEMY</p>
+          <p class="dato-editable">2025</p>
+          <a href="https://todocodeacademy.com/certificate/bd-relacionales-con-mysql-ebj/">Enlace</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== F. PROYECTOS ========== -->
+    <section id="proyectos" class="seccion proyectos">
+      <h2 class="titulo-seccion titulo-seccion--claro"><span>Galería de proyectos</span></h2>
+      <div class="filtros" role="group" aria-label="Filtrar proyectos">
+        <button class="filtro activo" data-filtro="todos">Todos</button>
+        <button class="filtro" data-filtro="backend">Backend</button>
+        <button class="filtro" data-filtro="web">Web</button>
+        <button class="filtro" data-filtro="datos">Datos</button>
+      </div>
+      <div class="galeria">
+        
+        <article class="cuadro cuadro--dorado revelar" data-cat="backend">
+          <div class="cuadro__obra" style="--a: var(--petroleo); --b: var(--salvia)"></div>
+          <div class="cartela">
+            <h3>PharmaUCSG</h3>
+            <p>Aplicación web desarrollada como proyecto académico para la consulta y compra de medicamentos. </p>
+            <p class="cartela__tec">[PHP · Laravel · Blade · HTML · CSS · SQL]</p>
+            <p class="cartela__estado">Estado: [Terminado]</p>
+            <p class="cartela__enlaces"><a href="https://github.com/Romii8/farmacia-laravel" target="_blank" rel="noopener noreferrer">Repositorio</a> </p>
+          </div>
+        </article>
+        <article class="cuadro cuadro--blanco cuadro--alto revelar" data-cat="web">
+          <div class="cuadro__obra" style="--a: var(--rosa); --b: var(--coral)"></div>
+          <div class="cartela">
+            <h3>Postres Familiares</h3>
+            <p>Sitio web básico de recetas caseras.</p>
+            <p class="cartela__tec">[HTML · CSS] </p>
+            <p class="cartela__estado">Estado: [Por completar]</p>
+            <p class="cartela__enlaces"><a href="https://github.com/Romii8/mispostres" >Repositorio</a> <a href="https://romii8.github.io/mispostres/">Demo</a></p>
+          </div>
+        </article>
+        <article class="cuadro cuadro--madera revelar" data-cat="backend">
+          <div class="cuadro__obra" style="--a: var(--mostaza); --b: var(--terracota)"></div>
+          <div class="cartela">
+            <h3>Sistema de inventario para tienda</h3>
+            <p>API REST para administrar el inventario de una tienda, permitiendo registrar productos, consultar existencias, actualizar información y eliminar registros.</p>
+            <p class="cartela__tec">[Java · Spring Boot]</p>
+            <p class="cartela__estado">Estado: [En planificación]</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== H. IDIOMAS ========== -->
+    <section id="idiomas" class="seccion idiomas">
+      <h2 class="titulo-seccion"><span>Idiomas</span></h2>
+      <ul class="muestras">
+        <!-- EDITAR: cambia los niveles -->
+        <li class="muestra revelar" style="--c: var(--coral)"><span class="muestra__color" aria-hidden="true"></span><strong>Español</strong><span>[Nativo]</span></li>
+        <li class="muestra revelar" style="--c: var(--petroleo)"><span class="muestra__color" aria-hidden="true"></span><strong>Inglés</strong><span>[B1- Academia de Idiomas de UCSG]</span></li>
+        <li class="muestra revelar" style="--c: var(--salvia)"><span class="muestra__color" aria-hidden="true"></span><strong>Coreano</strong><span>[1A- Institute King Sejong (Cursando)]</span></li>
+      </ul>
+    </section>
+
+    <!-- ========== I. CONTACTO ========== -->
+    <section id="contacto" class="seccion contacto">
+      <h2 class="titulo-seccion"><span>Contacto</span></h2>
+      <div class="mesa">
+        <div class="sobre revelar">
+          <div class="sobre__solapa" aria-hidden="true"></div>
+          <div class="sobre__carta">
+            <p class="nota-mano nota-mano--grande">¿Hablamos de una pasantía?</p>
+
+            <ul class="contacto__lista">
+              <li><a href="mailto:romina.andrade02@cu.ucsg.edu.ec">Correo: [romina.andrade02@cu.ucsg.edu.ec]</a></li>
+              <li><a href="www.linkedin.com/in/romina-fiorella-andrade-garcés-9148a43b4" target="_blank" rel="noopener">LinkedIn: [Romina Fiorella Andrade Garces]</a></li>
+              <li><a href="https://github.com/Romii8" target="_blank" rel="noopener">GitHub: [Romii8]</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p>Hecho a mano con HTML, CSS y JavaScript · Romina · Guayaquil</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
